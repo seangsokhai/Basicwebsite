@@ -23,4 +23,4 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::post('contact/submit', 'MessageController@sumbit');
+Route::post('/contact/submit', 'App\Http\Controllers\MessageController@submit');
