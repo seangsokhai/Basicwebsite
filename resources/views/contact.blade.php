@@ -12,8 +12,8 @@
         {{ Form::text('email', '',['class' => 'form-control' , 'placeholder' => 'example@gmail.com' ] )}}
     </div>
     <div class="form-group">
-        {{ Form::label('message', 'Massege') }}
-        {{ Form::textarea('massage', '',['class' => 'form-control' , 'placeholder' => 'Your massage' ] )}}
+        {{ Form::label('message', 'Message') }}
+        {{ Form::textarea('message', '',['class' => 'form-control' , 'placeholder' => 'Your massage' ] )}}
     </div>
     {{ Form::submit('Submit',['class' => 'btn btn-primary']) }}
 {!! Form::close() !!}
